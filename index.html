@@ -1,61 +1,115 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Profil Saya</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="asset/css/style.css">
-        <script src="asset/js/script.js" defer></script>
-    </head>
-    <body>
-        <nav>
-            <div class="menu-mobile">
-                 <!-- 2tambahkan -->
-                <a href="#" onclick="showMenu()">menu</a>
+
+<head>
+    <title>Profil Saya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer></script>
+    <script src="asset/js/script.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-green" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mutia's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiences">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#interest">Interest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#award">Award</a>
+                    </li>
+                </ul>
             </div>
-            <ul id="menu">
-                <li><a href="/">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">EXPERIENCES</a></li>
-                <li><a href="#">EDUCATION</a></li>
-                <li><a href="#">SKILLS</a></li>
-                <li><a href="#">INTEREST</a></li>
-                <li><a href="#">AWARD</a></li>
-            </ul>
-        </nav>
-        <main>
-            <!-- ABOUT -->
-            <section id="about">
-                <h1>ABOUT</h1>
-            </section>
+        </div>
+    </nav>
+    <main>
+        <!-- ABOUT -->
+        <section id="about">
+            <div class="about-text">
+                <p>
+                    Hello, My name is Mutia <br>
+                    I am Frontend Developer
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="asset/image/attractive-green-leaf-dark-background.jpg">
+            </div>
+        </section>
 
-            <!-- EXPERIENCES -->
-            <section id="experiences">
-                <h1>EXPERIENCES</h1>
+        <!-- EXPERIENCES -->
+        <section id="experiences">
+            <h1>EXPERIENCES</h1>
+            <div class="experiences-list">
+                <div class="experiences-item">
+                    <img src="asset/image/attractive-green-leaf-dark-background.jpg">
+                    <h1>Software Developer</h1>
+                    <h2>XDana Investa</h2>
+                    <h3>2018</h3>
+                </div>
+                <div class="experiences-item">
+                    <img src="asset/image/attractive-green-leaf-dark-background.jpg">
+                    <h1>Software Developer</h1>
+                    <h2>XDana Investa</h2>
+                    <h3>2018</h3>
+                </div>
+                <div class="experiences-item">
+                    <img src="asset/image/attractive-green-leaf-dark-background.jpg">
+                    <h1>Software Developer</h1>
+                    <h2>XDana Investa</h2>
+                    <h3>2018</h3>
+                </div>
+            </div>
+        </section>
 
-            </section>
+        <!-- EDUCATION -->
+        <section id="education">
+            <h1>EDUCATION</h1>
 
-            <!-- EDUCATION -->
-            <section id="education">
-                <h1>EDUCATION</h1>
+        </section>
+        <!-- SKILLS -->
+        <section id="skills">
+            <h1>SKILLS</h1>
 
-            </section>
-            <!-- SKILLS -->
-            <section id="skills">
-                <h1>SKILLS</h1>
+        </section>
 
-            </section>
+        <!-- INTEREST -->
+        <section id="interest">
+            <h1>INTEREST</h1>
 
-            <!-- INTEREST -->
-            <section id="interest">
-                <h1>INTEREST</h1>
+        </section>
 
-            </section>
+        <!-- AWARD -->
+        <section id="award">
+            <h1>AWARD</h1>
 
-            <!-- AWARD -->
-            <section id="award">
-                <h1>AWARD</h1>
+        </section>
+    </main>
+    <footer>
+        Image by <a href="https://www.freepik.com/free-photo/attractive-green-leaf-dark-background_2559765.htm#query=dark%20green%20trees&position=18&from_view=keyword&track=ais_user&uuid=d3b265ed-06dd-4ead-9f5d-74b413e3b327">Freepik</a>
+    </footer>
+</body>
 
-            </section>
-        </main>
-    </body>
 </html>
